@@ -3,7 +3,7 @@
 
 int main()
 {
- int a,b, product;
+ int a,b, diff;
 
  clrscr();
 
@@ -13,10 +13,11 @@ int main()
  printf("enter the second number:");
  scanf("%d", &b);
 
- product=a*b;
- printf("PRODUCT of %d and %d is:%d\n",a, b, product);
+ diff=a-b;
+ printf("DIFFERENCE of %d and %d is:%d\n",a, b, diff);
 
  getch();
  return 0;
  }
+
 
